@@ -43,6 +43,7 @@ The mobile apps will be released later. Download links will be added here when t
 - File acceptance prompts, transfer progress, and transfer speed indicators.
 - A configurable download folder and a button to open it after receiving files.
 - Light and dark themes that follow your Windows settings.
+- Russian, English, French, and Spanish, with manual or automatic language selection.
 - System tray support, notifications, and an optional launch-at-login setting.
 - Update checks and installation from within the app.
 
@@ -59,6 +60,13 @@ You do not need to install .NET separately. Internet connections require
 **Microsoft Edge WebView2 Runtime**. The x64 build is intended for computers
 with Intel/AMD processors.
 
+## Interface language
+
+Version 0.5.0 supports **Русский, English, Français and Español**.
+Choose **Settings → Interface language**, use **Exit** in the tray menu,
+then reopen DirectDrop. Closing the main window only hides it in the tray.
+The default follows Windows; unsupported system languages fall back to English.
+
 ## How file transfers work
 
 Devices discover each other automatically on a local network. To connect over
@@ -71,7 +79,7 @@ configurations prevent a direct connection from being established.
 ## Updates
 
 Starting with version 0.4.0, open **Settings → Check for updates**
-(**Настройки → Проверить обновления** in the current Russian interface).
+(**Настройки → Проверить обновления** if you use the Russian interface).
 The startup check notifies you of a new version; downloading and installing
 require your action. Finish any transfers and disconnect the device before installing.
 The in-app update from **0.4.0 to 0.4.1** has been successfully tested on Windows.
