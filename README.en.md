@@ -4,7 +4,7 @@
 
 [Русский](README.md) | **English**
 
-**qnid is the new name of DirectDrop.** It is the same app, with a new icon and continued device compatibility.
+**qnid is the new name of DirectDrop (working title).** It is the same app, with a new icon and continued device compatibility.
 
 **Send files between your phone and computer — simply and directly.**
 
@@ -80,16 +80,16 @@ Internet mode uses a direct connection and **STUN only**.
 TURN and server-based file relaying are not used. Some networks and NAT
 configurations prevent a direct connection from being established.
 
-## Moving from DirectDrop
+## Moving from DirectDrop (working title)
 
-**qnid 0.6.0** continues DirectDrop under a new name. In your existing app,
+**qnid 0.6.0** continues DirectDrop (working title) under a new name. In your existing app,
 open **Settings → Check for updates**. The migration package is signed with the same key.
 Your settings, language preference, and download folder are preserved.
 The old executable name is retained on upgraded installations to preserve shortcuts
 and startup registration; the app itself displays **qnid** and the new icon.
 
 For a fresh installation, choose **qnid-…-win-x64.zip** and run **qnid.exe**.
-The **DirectDrop-…-win-x64.zip** packages and `update-win-x64.json` metadata support
+The **DirectDrop-…-win-x64.zip** (filename retained from the working title) packages and `update-win-x64.json` metadata support
 older updaters. The new client uses `update-qnid-win-x64.json`.
 Legacy network identifiers are retained for compatibility and do not indicate
 that you are running an old app version.
